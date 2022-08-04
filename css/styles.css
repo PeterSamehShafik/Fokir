@@ -1,0 +1,433 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 10000px;
+} */
+
+ul {
+    list-style-type: none;
+}
+p{
+    color: #555;
+    line-height: 25px;  
+}
+
+.clr {
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.pink-btn{
+    padding: 10 35;
+    background-color: #ff305b;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    margin-right:10px ;
+}
+
+.colored{
+    background-color: #f1f1f1;
+}
+.centered{
+    text-align: center;
+}
+
+
+/* Nav Bar */
+.nav-bar {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 2;
+}
+
+.nav-container {
+    /* background-color: blueviolet; */
+    width: 75%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff305b;
+    font-size: 24px;
+}
+
+.links {
+    margin-top: 5px;
+    width: 80%;
+    float: right;
+}
+
+.links ul {
+    float: right;
+}
+
+.links li {
+    float: left;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Header */
+
+.header{
+    background-image: url(../images/slider/slider-01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.header-content{
+    text-align: center;
+    position: absolute;
+    top :40vh;
+    left: 0;
+    right: 0;
+}
+.header h3 ,h1, span {
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 100%;
+}
+.header h1{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.header h3{
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.header span{
+    font-size: 24px;
+}
+.bright{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+}
+
+/* Body */
+.item{
+    float: left;
+}
+
+
+/* first Section */
+.two-col{
+    width: 50%;
+}
+.two-col img{
+    width:100%;
+}
+.box{
+    width: 65%;
+    margin: auto;
+    border: #555 7px solid;
+    background-color: white;
+    position: relative;
+}
+.box img{
+    position: relative;
+    top: 20;
+    left: 20;
+}
+
+.i-hello{    
+    width: 100%;
+}
+
+.i-hello h2{
+    padding: 0 0 20 0px;
+    font-size: 34px;
+}
+.i-hello span{
+    color: #ff305b;
+    font-size: 34px;
+}
+.i-hello p{
+    padding: 10 5 20 0px;
+    line-height: 25px;
+    color: #555;
+}
+.i-hello hr{
+    border-style: dashed;
+    opacity: 30%;
+    margin-bottom: 10px;
+}
+
+.infos{
+    width: 100%;
+}
+.infos p{
+    padding: 10 5 10 0px
+}
+.infos span{
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+
+
+/* Second Section */
+.services{
+    margin-top: 20px;
+    padding: 10px ;
+}
+.titled{
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    margin: 50 0 15 0;
+}
+.lines{
+    margin: auto;
+    margin-bottom: 40px;
+}
+.line{
+    color: #ff305b;
+}
+
+.four-col{
+    width: 25%;
+    padding: 50px 0px;
+}
+.four-col img{
+    width:20%;
+}
+.mini-container h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+.mini-container p{
+    line-height: 25px;
+    color: #555;
+    padding: 10px 10px;
+}
+
+/* Third Section */
+.three-col{
+    width: 33.33%;
+}
+.categories{
+    width: 80%;
+    margin: auto;
+}
+.categories .three-col img{
+    width:100%;
+    padding: 15px;
+}
+.cat{
+    margin-bottom: 40px;
+}
+.cat li{
+    display: inline;
+    padding: 0px 10px;
+}
+.cat a{
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+
+}
+.active a{
+    color: #ff305b;
+}
+
+/* Fourth Section */
+.stat{
+    color: #555;
+}
+.stat span{
+    color: black;
+    font-weight: 900;
+    display: block;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+/* Fifth Section */
+
+.one-col{
+    width: 100%;
+}
+.colored-card{
+    background-color: #ff305b;
+    margin: auto; 
+    width: 70%;
+    border-radius: 0px 20px 20px 20px;
+}
+.card{
+    background-color:#f1f1f1 ;
+    color: #555;
+    width: 100%;
+    padding: 40px;
+    font-size: large;
+    border-radius: 600px 20px 20px 20px;
+    
+}
+.img-container{
+    width: 20%;
+    float: left;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 50% 50%;
+}
+.card-content{
+    float: left;
+    width: 80%;
+    padding: 0 0 0 40px;
+}
+.card-content h3{
+    color: black;
+    margin: 10px 0px;
+}
+.card-content a{
+    text-decoration: none;
+    color: #555;
+    font-size: smaller;
+}
+.card-content p{
+    font-style: italic;
+    margin: 20px 0px;
+}
+
+/* sixth section */
+.bg-white{
+    background-color: white;
+}
+.blog .three-col img{
+    width: 100%;
+}
+.blog{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 40 0;
+    padding: 5;
+}
+.blog a{
+    text-decoration: none;
+    color: black;
+}
+.blog .item{
+    padding: 20px;
+}
+
+.blog-card-content{
+    padding: 20px;
+}
+.blog-card-content h3{
+    margin: 10 0px;
+}
+.blog-card-content a{
+    display: block;
+    font-size: large;
+    margin-top: 10px;
+}
+
+/* seventh section */
+.contact{
+    width: 100%;
+    margin: 50px 0;
+}
+.form-contact{
+    width: 80%;
+    margin: auto;
+}
+.form-contact form{
+    width: 70%;
+    margin: auto;
+}
+.form-contact input, textarea{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 4px ;
+    color: #555;
+    border: #555 solid 0.5px;
+}
+.ipnut-two-col{
+    float: left;
+    width: 50%;
+    padding: 0 20 20 0;
+}
+.ipnut-two-col input{
+    width: 100%;
+}
+.input-one-col{
+    display: block;
+    width: 100%;
+    padding: 0 20 20 0;
+}
+.input-one-col input ,textarea{
+    width: 100%;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #333;
+}
+.footer p{
+    color: #fff;
+    padding: 20px;
+}
+.footer span{
+    color: #ff305b;
+}
+.icons-container{
+    width: 50%;
+    margin: auto;
+}
+.footer-icon{
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

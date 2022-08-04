@@ -1,0 +1,366 @@
+/* Extra Small */
+@media (max-width: 575.98px) {
+
+    /* Nav Bar */
+    .nav-container {
+        width: 100%;
+    }
+
+    .links li {
+        padding: 0px 3px;
+    }
+
+    .links a {
+        font-size: smaller;
+    }
+
+    /* Header */
+    .header h1 {
+        font-size: 38px;
+    }
+
+    .header h3 {
+        font-size: 22px;
+    }
+
+    .header span {
+        font-size: 18px;
+    }
+
+    /* body */
+
+    .container {
+        width: 100%;
+    }
+
+    /* first section */
+    .two-col {
+        width: 100%;
+    }
+
+    .box {
+        position: static;
+        width: 100%;
+        margin: auto;
+        border: none;
+        background-color: white;
+    }
+
+    .box img {
+        position: static;
+    }
+
+    .i-hello {
+        width: 100%;
+        margin: auto;
+    }
+
+    .infos button {
+        padding: 5 5;
+    }
+
+    /* Second Section */
+    .four-col {
+        width: 100%;
+        padding: 10px 0px;
+
+    }
+
+    .services {
+        padding: 40 0px;
+    }
+
+    /* Third Section */
+    .categories .three-col {
+        width: 100%;
+    }
+
+    /* fourth is as same as 2  */
+
+    /* fifth section */
+    .colored-card {
+        width: 90%;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .img-container {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .img-container img {
+        width: 40%;
+    }
+
+    .card-content {
+        float: none;
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    /* sixth section */
+    .blog .three-col{
+        width: 100%;
+    }
+
+    /* Seventh section */
+    .form-contact form{
+        width: 100%;
+    }
+    .ipnut-two-col {
+        width: 100%;
+    }
+
+}
+
+/* small */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Nav Bar */
+    .nav-container {
+        width: 100%;
+    }
+
+    .links li {
+        padding: 0px 6px;
+    }
+
+    .links a {
+        font-size: 15px;
+    }
+
+    /* Header */
+    .header h1 {
+        font-size: 38px;
+    }
+
+    .header h3 {
+        font-size: 22px;
+    }
+
+    .header span {
+        font-size: 18px;
+    }
+
+    /* body */
+    .container {
+        width: 100%;
+    }
+
+    /* first section */
+    .two-col {
+        width: 100%;
+    }
+
+    .box {
+        position: static;
+        width: 100%;
+        margin: auto;
+        border: none;
+        background-color: white;
+    }
+
+    .box img {
+        position: static;
+    }
+
+    .i-hello {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* Second Section */
+    .four-col {
+        width: 100%;
+        padding: 0px 40px;
+
+    }
+
+    .services {
+        padding: 30 40px;
+    }
+
+    /* Third Section */
+    .categories .three-col {
+        width: 100%;
+    }
+
+    .categories .three-col img{
+        padding: 20 50px;
+    }
+
+    /* fourth is as same as 2  */
+
+    /* fifth section */
+    .img-container {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .img-container img {
+        width: 50%;
+    }
+
+    .card-content {
+        float: none;
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    /* sixth section */
+    .blog .three-col{
+        width: 100%;
+    }
+
+    /* Seventh section */
+    .form-contact form{
+        width: 100%;
+    }
+    .ipnut-two-col {
+        width: 100%;
+    }
+
+}
+
+/* meduim */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* nav bar */
+    .nav-container {
+        width: 100%;
+    }
+
+    /* body */
+    .container {
+        width: 100%;
+    }
+
+    /* first section */
+    .two-col {
+        width: 50%;
+    }
+
+    .box {
+        width: 100%;
+        padding-right: 20px;
+        border: none;
+    }
+
+    .box img {
+        position: static;
+        width: 100%;
+    }
+
+    .i-hello {
+        width: 100%;
+    }
+
+    .i-hello h2 {
+        /* padding: 0px; */
+        font-size: 34px;
+    }
+
+    .i-hello p {
+        /* padding: 0px; */
+    }
+
+    /* Second Section */
+    .four-col {
+        width: 50%;
+        padding: 0px 0px;
+    }
+
+    /* Third Section */
+    .categories .three-col {
+        width: 50%;
+    }
+
+    .categories .three-col img{
+        padding: 10 10px;
+    }
+
+    /* fourth Section */
+    .stat .four-col {
+        width: 25%;
+    }
+
+    /* fifth section */
+    .colored-card {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 20%;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    .card-content {
+        width: 80%;
+        padding-left: 40px;
+    }
+    /* sixth section no changes */
+
+    /* Seventh section */
+    
+    .form-contact form{
+        width: 90%;
+    }
+    .ipnut-two-col {
+        width: 100%;
+    }
+
+
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* body */
+    .container {
+        width: 100%;
+    }
+
+    /* first section */
+    .two-col img {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+        border: #555 7px solid;
+        background-color: white;
+        position: relative;
+        right: 30;
+    }
+
+    .box img {
+        position: relative;
+        top: 20;
+        left: 20;
+    }
+
+    .i-hello {
+        width: 100%;
+    }
+
+    /* Second Section */
+    .four-col {
+        width: 25%;
+        padding: 0px 0px;
+
+    }
+
+    .services {
+        padding: 0 0px;
+    }
+
+    /* fifth section */
+}
